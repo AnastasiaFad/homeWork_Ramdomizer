@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="item">
+        <div class="item-image">
+            <img src="img/02.png" alt="" class="image">
+        <div class="item-main">
+                <div class="item-row">
+                    <label>
+                        <h2>Ramomizer</h2>
+                    </label>
+                </div>
+                <div class="item-row">
+                    <div>
+                        <label>Min</label>
+                    </div>
+                    <div>
+                        <input id='item__minValue' type="number" min=1>
+                    </div>
+                </div>
+                <div class="item-row">
+                    <div>
+                        <label>Max</label>
+                    </div>
+                    <div>
+                        <input id='item__maxValue' type="number" min=1>
+                    </div>
+                </div>
+                <div class="item-row">
+                    <button id='item__btnGenerate'>Generate</button>
+                </div>
+                <div class="item-row">
+                        <label id='item__sms'></label>
+                </div>
+                <div class="item-row">
+                        <button id='item__btnExit'>Exit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/ramdom.js"></script>
+</body>
+</html>
